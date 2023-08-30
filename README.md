@@ -42,7 +42,8 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
 
 #### Navigation
 
-- The logo should stack on top of the menu links, which are aligned horizontally, as follows:
+- The logo should stack on top of the menu links, which are aligned horizontally, as follows:     %R&%^$&^%$ DONE
+
 
 ![Navigation mobile](./images/navigation-mobile.png)
 
@@ -50,7 +51,7 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
 
 | Link clicked | Take the user to the section with `id` of |
 | ------------ | ----------------------------------------- |
-| `Stay`       | `id="stay"`                               |
+| `Stay`       | `id="stay"`                               |              $^$#$&^%$&%^$DONE
 | `About`      | `id="about"`                              |
 | `Ideas`      | `id="ideas"`                              |
 | `Host`       | `id="host"`                               |
