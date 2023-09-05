@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -96,14 +96,14 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 form label {
   font-weight: bold;
+}
+form div {
+  display: flex;
+  justify-content: space-between;
 }
 
 form select,
@@ -151,9 +151,58 @@ footer p {
   .logo {
     font-size: 36px;
   }
+
+  form div {
+    flex-direction: column;
+    width: 15%;
+  }
+
+  form button {
+    width: 20%;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   
+  form input, form select {
+    width: 100%;
+  }
 
- 
+  #about div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
+  }
+  #about img {
+    width: 25%;
+  }
+
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+
+  .row div {
+    flex: 1;
+  }
+
+  #host {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  #host div {
+    flex: 1;
+  }
+
+}
+@media all and (max-width: 400px) {
+  .logo {
+    font-size: 54px;
+  }
 
 }
